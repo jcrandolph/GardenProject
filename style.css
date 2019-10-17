@@ -1,0 +1,29 @@
+body {
+    background-color:rgb(13, 156, 85);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+  }
+.nav-wrapper {
+    background-color: rgb(132, 236, 132);
+    border: solid 1px black
+}
+a:link{
+    color:orangered
+}
+a:hover{
+    color:brown
+}
+img{
+    max-height: 60px; border: black solid 1px; margin-left: 10px; margin-top: 1px;
+}
+#pageName{
+    text-align: center; font-size: 40px; color: rgb(148, 74, 13)
+}
+.page-footer{
+    background-color: rgb(132, 236, 132);
+    border: solid 1px black 
+}
